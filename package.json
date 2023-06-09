@@ -1,0 +1,74 @@
+
+{
+
+"name": "kasperskyservice",
+
+"version": "1.0.0",
+
+"description": "detect malware",
+
+"main": "server.js",
+
+"scripts": {
+
+"test": "echo \"Error: no test specified\" && exit 1",
+
+"start": "node server.js"
+
+},
+
+"repository": {
+
+"type": "git",
+
+"url": "git+https://github.com/hatefm69/kasperservice.git"
+
+},
+
+"keywords": [
+
+"kaspersky",
+
+"tabledevil/kaspersky",
+
+"malwareDetected",
+
+"docker"
+
+],
+
+"author": "hatefm69@gmail.com",
+
+"license": "ISC",
+
+"bugs": {
+
+"url": "https://github.com/hatefm69/kasperservice/issues"
+
+},
+
+"homepage": "https://github.com/hatefm69/kasperservice#readme",
+
+"dependencies": {
+
+"body-parser": "^1.20.1",
+
+"child_process": "^1.0.2",
+
+"cors": "^2.8.5",
+
+"express": "^4.18.2",
+
+"express-fileupload": "^1.4.0",
+
+"lodash": "^4.17.21",
+
+"morgan": "^1.10.0",
+
+"rimraf": "^3.0.2",
+
+"uuid": "^9.0.0"
+
+}
+
+}
